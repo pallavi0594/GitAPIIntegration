@@ -29,7 +29,7 @@ public class GitAPIServiceTest {
 	@Test
 	public void testGetProjects()
 	{
-		String username = "sudamb92";
+		String username = "pallavi0594";
 		String type = "owner";
 		
 		CommonResponseDto response = (CommonResponseDto) repoService.getProjects(username, type);
